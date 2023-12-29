@@ -13,7 +13,7 @@
   --very-dark-blue: hsl(255, 11%, 22%);
   --very-dark-violet: hsl(260, 8%, 14%);
 }
-.body{
+body{
     font-size: 18px;
     font-family: "poppons","san-serif";
     margin-inline: auto;
@@ -72,3 +72,65 @@ header{
     transition: all 0.3s ease-in-out;
     background: #000;
 }
+section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    max-width: 30rem;
+}
+.content h1{
+    font-size: 3rem;
+    margin: 0.5rem;
+}
+.content p{
+    color: var(--grayish-violet);
+    margin: 0.5rem;
+}
+.content button{
+    background-color: var(--grayish-violet);
+    padding: 0.5rem 1.7rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 1.2rem;
+    
+}
+input {
+    padding: 0.6rem 0.3rem;
+    border-radius: 0.2rem;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    margin: 0.5rem;
+    flex: 1;
+}
+.input-container {
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--dark-violet);
+    padding: 1rem 1.5rem;
+    position: relative;
+    width: min(100%, 40rem);
+    border-radius: 0.3rem;
+    overflow: hidden;
+  }
+  .input-button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.2rem;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    background: var(--cyan);
+    cursor: pointer;
+    outline: none;
+    border: none;
+  }
+  
